@@ -8,6 +8,10 @@ public class Main {
         MergeSort.mergeSort(testTwo, 0, testTwo.length-1);
         printResult(testTwo);
 
+        int[] testThree = {5, 3, 12, 23};
+        RadixSort.radixSort(testThree);
+        printResult(testThree);
+
     }
 
     public static void printResult(int[] arr) {
